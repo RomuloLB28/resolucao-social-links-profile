@@ -1,0 +1,81 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    font-weight: bold;
+    color: white;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(20,20,20);
+}
+
+.card{
+    border-radius: 0.5rem;
+    width: 300px;
+    height: 500px;
+    background-color: rgb(31,31,31);
+    box-shadow: rgba(0, 0, 0, .24) 0px 3px 8px;
+    padding: 20px;
+}
+
+.circle img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+p{
+    font-size: 13px;
+    color: rgb(170, 162, 162);
+    transform: scale(0.9);
+}
+
+b{
+    margin-top: -15px;
+    font-size: 14px;
+    transform: scale(0.8);
+    color: rgb(197, 248, 42);
+}
+
+.up{
+    display: flex;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.down{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    align-items: center;
+}
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 260px;
+    height: 40px;
+    padding: 1rem;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    background-color: rgb(51, 51, 51);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: none;
+}
+
+button:hover {
+    background-color: rgb(197, 248, 42);
+    color: rgb(51, 51, 51);
+}
